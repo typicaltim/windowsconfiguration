@@ -1,4 +1,4 @@
-# This goes in C:\{user}\documents\PowerShell\
+# This goes in C:\{user}\documents\WindowsPowerShell\
 
 $PSProfileData = @{
     Prompt = @(
@@ -22,5 +22,3 @@ function prompt {
     Write-Host ("[" + $PSLocation + "]") -NoNewLine -ForegroundColor $PSLocationColor
     return " $ "
 }
-
-Import-Module posh-git
